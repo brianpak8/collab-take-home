@@ -11,3 +11,67 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  background-color: red;
+  color: white;
+  text-align: left;
+  padding: 20px 40px 25px 40px;
+  font-size: 40px;
+}
+.instructions {
+  margin-bottom: 30px;
+}
+
+.output{
+  margin-top: 10px;
+}
+
+.file_wrapper {
+  margin-top: 30px;
+}
+
+.radio_btn {
+  display: inline-block;
+  flex: 1;
+}
+.radio_container{
+  max-width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form_btns {
+  margin-top: 35px;
+  padding: 12px 32px;
+}
+
+.submit_btn {
+  padding: 12px 32px;
+  margin-right: 20px;
+}
+.submit_btn:hover:not(:disabled) {
+   background-color: blue;
+   color: white;
+}
+.reset_btn {
+  padding: 12px 32px;
+  margin-left: 20px;
+}
+
+.form label {
+  display: block;
+  text-align: center;
+}
+.radio_div label{
+  display: inline-block;
+  text-align: left;
+  flex: 1;
+}
+.radio_div {
+  text-align: left;
+  display: flex;
+}
